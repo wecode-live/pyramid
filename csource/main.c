@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * @author: https://twitter.com/isocroft
+ * @license: MIT
+ *
+ */
+
 int main() {
     
    char block = '#';
