@@ -17,7 +17,7 @@ int main() {
         The `getchar()` call is to block the console process/thread from getting
         terminated (when the console window disappears from sight)
          
-        press any key to close the console window
+        press the `Enter` key to close the console window
    */
    getchar();
     
