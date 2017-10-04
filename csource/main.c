@@ -3,7 +3,7 @@
 
 int main() {
    char block = '#';
-   char block_line[10];
+   char* block_line[10];
    int pyramid_height = sizeof(block_line);
    
    
