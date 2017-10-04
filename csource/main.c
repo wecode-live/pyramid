@@ -9,6 +9,6 @@ int main() {
    
    for(int i = 0; i < pyramid_height; i+=strlen(block)){
        block_line[i] = block;
-       printf("%s", block_line);
+       printf("%s\n", block_line);
    } 
 }
