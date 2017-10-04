@@ -1,14 +1,17 @@
 #include <stdio.h>
-#include <string.h>
 
 int main() {
+    
    char block = '#';
-   char* block_line[10];
+   char block_line[7];
    int pyramid_height = sizeof(block_line);
+   int increment = sizeof(block);
+   int step = 0;
    
-   
-   for(int i = 0; i < pyramid_height; i+=strlen(block)){
-       block_line[i] = block;
+   for(; step < pyramid_height; step+=increment){
+       block_line[step] = block;
        printf("%s\n", block_line);
    } 
+   
+   return 0;
 }
